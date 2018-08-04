@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_home"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/shop"
+        android:title="Buy"
+        android:icon="@drawable/ic_shopping"
+        app:showAsAction="always"/>
+
+
+    <item
+        android:id="@+id/food"
+        android:title="Food.E.Day"
+        android:icon="@drawable/ic_foodeday"
+        app:showAsAction="always"/>
+
+</menu>
