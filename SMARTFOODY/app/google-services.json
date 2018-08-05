@@ -1,39 +1,35 @@
 {
   "project_info": {
-    "project_number": "100012697730",
-    "firebase_url": "https://happy-food-7a8f8.firebaseio.com",
-    "project_id": "happy-food-7a8f8",
-    "storage_bucket": "happy-food-7a8f8.appspot.com"
+    "project_number": "16892566717",
+    "firebase_url": "https://smartfoody-187909.firebaseio.com",
+    "project_id": "smartfoody-187909",
+    "storage_bucket": "smartfoody-187909.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:100012697730:android:3e2cef9467ba42a1",
+        "mobilesdk_app_id": "1:16892566717:android:3e2cef9467ba42a1",
         "android_client_info": {
           "package_name": "com.example.user.smartfoody"
         }
       },
       "oauth_client": [
         {
-          "client_id": "100012697730-3lhn8872apd60ls5ijqqqpf0vpcnnknu.apps.googleusercontent.com",
+          "client_id": "16892566717-khubjjsah4vtnlqks699u1hamsgshucp.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.user.smartfoody",
-            "certificate_hash": "ca86da7b47b80e7110365de22d83ec89b145e882"
+            "certificate_hash": "8cf97ea7244ce51f9323fbd570c0b980a0ee0f93"
           }
         },
         {
-          "client_id": "100012697730-55nhhm8t792pnfmj77b8qkeirn94grj8.apps.googleusercontent.com",
-          "client_type": 3
-        },
-        {
-          "client_id": "100012697730-55nhhm8t792pnfmj77b8qkeirn94grj8.apps.googleusercontent.com",
+          "client_id": "16892566717-rugqqtbcjke8onv3lmgmatv8qgmf68k0.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAPgme4gm-vtXfMIDfPUV0562-3b6QBOks"
+          "current_key": "AIzaSyC0r0AkLD83rCHN5p89flXR39dKEJ7LKlA"
         }
       ],
       "services": {
@@ -44,7 +40,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "100012697730-55nhhm8t792pnfmj77b8qkeirn94grj8.apps.googleusercontent.com",
+              "client_id": "16892566717-rugqqtbcjke8onv3lmgmatv8qgmf68k0.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
