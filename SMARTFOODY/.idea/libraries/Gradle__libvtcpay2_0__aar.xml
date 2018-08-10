@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: libvtcpay2.0:@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/libvtcpay2.0.aar/b60ad25aca0e483e0135ef5aa6d7aaf3/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/libvtcpay2.0.aar/b60ad25aca0e483e0135ef5aa6d7aaf3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/libvtcpay2.0.aar/ecca5fe47af9ebc5dd5ea01acd9f7f04/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/libvtcpay2.0.aar/ecca5fe47af9ebc5dd5ea01acd9f7f04/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

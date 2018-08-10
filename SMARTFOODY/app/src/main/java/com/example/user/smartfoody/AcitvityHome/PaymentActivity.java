@@ -30,6 +30,7 @@ import com.android.volley.toolbox.Volley;
 import com.example.user.smartfoody.Adapter.BillAdapter;
 import com.example.user.smartfoody.Adapter.ProducesAdapter;
 import com.example.user.smartfoody.CartDB.Database;
+import com.example.user.smartfoody.MainActivity;
 import com.example.user.smartfoody.Model.BillProduct;
 import com.example.user.smartfoody.Model.Produces;
 import com.example.user.smartfoody.Model.User;
@@ -401,5 +402,11 @@ public class PaymentActivity extends AppCompatActivity{
         Volley.newRequestQueue(this).add(request);
     }
 
+    // onback pressed
 
+    @Override
+    public void onBackPressed() {
+        Intent tohome = new Intent(PaymentActivity.this, MainActivity.class);
+        startActivity(tohome);
+    }
 }

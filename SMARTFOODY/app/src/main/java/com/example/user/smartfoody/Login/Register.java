@@ -70,7 +70,7 @@ public class Register extends AppCompatActivity {
     private FirebaseAuth auth;
 
     EditText firstname, lastname,regisuser,regispass, regisconfirmpass, otpcode;
-    Button register2,checked;
+    Button register2,checked, regis_back;
     LinearLayout checklayout, regislayout;
 
     String message;
@@ -95,6 +95,7 @@ public class Register extends AppCompatActivity {
         //button
         register2 = (Button)findViewById(R.id.btnregister2);
         checked = (Button)findViewById(R.id.btnchecked);
+        regis_back = (Button)findViewById(R.id.btn_regis_back);
         //layout
         checklayout = (LinearLayout)findViewById(R.id.layoutcheck);
         regislayout = (LinearLayout)findViewById(R.id.layoutregis);
@@ -147,6 +148,14 @@ public class Register extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 verifyCode(view);
+            }
+        });
+
+        regis_back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent tologin = new Intent(Register.this, LogIn.class);
+                startActivity(tologin);
             }
         });
 

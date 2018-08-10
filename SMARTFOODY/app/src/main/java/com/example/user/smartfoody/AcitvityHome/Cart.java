@@ -101,7 +101,11 @@ public class Cart extends AppCompatActivity {
         dathang.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                showAlertDialog();
+                if (templist.size()> 0) {
+                    showAlertDialog();
+                }
+                else
+                    Toast.makeText(Cart.this, "Vui lòng chọn hàng!", Toast.LENGTH_SHORT).show();
             }
         });
         trahang.setOnClickListener(new View.OnClickListener() {
